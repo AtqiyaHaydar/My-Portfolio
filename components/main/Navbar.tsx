@@ -16,12 +16,12 @@ import { Separator } from '@radix-ui/react-separator'
 
 const Navbar = () => {
   return (
-    <header className='h-[65px] fixed top-0 w-full  flex justify-center items-center shadow-lg shadow-[#2A0E61]/25 bg-[#03001417] backdrop-blur-md z-50 px-10'>
-      <div className='wrapper w-full h-full flex flex-row items-center justify-between m-auto px-[10px]'>
+    <header className='h-[65px] fixed top-0 w-full  flex justify-center items-center shadow-lg shadow-[#2A0E61]/25 bg-[#03001417] backdrop-blur-md z-50 px-4'>
+      <div className='wrapper w-full h-full flex flex-row items-center justify-between  px-4'>
 
-        <h1 className='text-white font-extrabold text-xl'>
+        <h1 className='text-white font-semibold text-xl'>
           <span className='bg-clip-text text-transparent  bg-gradient-to-r from-purple-500 to-cyan-500'>
-            Atqiya Haydar
+            A T Q I Y A
           </span>
         </h1>
         
@@ -39,7 +39,7 @@ const Navbar = () => {
         </nav>  
 
         {/* MOBILE NAV */}
-        <div className='flex lg:hidden'>
+        <div className='flex lg:hidden z-20'>
           <Sheet>
             <SheetTrigger asChild>
               <Layers 
