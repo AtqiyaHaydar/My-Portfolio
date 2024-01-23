@@ -1,4 +1,5 @@
 import Hero from "@/components/main/Hero";
+import PortfolioDesign from "@/components/main/PortfolioDesign";
 import Skills from "@/components/main/Skills";
 import Blackhole from "@/components/video/Blackhole";
 import Image from "next/image";
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="flex flex-col mt-[65px]">
         <Hero />
         <Skills />
+        <PortfolioDesign />
       </div>
     </main>
   );

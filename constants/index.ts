@@ -1,4 +1,4 @@
-export const navMenu = [
+export const navMenu: { label: string, href: string }[] = [
   {
     label: 'About',
     href: '#about'
@@ -21,7 +21,7 @@ export const navMenu = [
   },
 ]
 
-export const skills = [
+export const skills: { name: string }[] = [
   {
     name: "Next JS",
   },
@@ -57,5 +57,28 @@ export const skills = [
   },
   {
     name: "Three JS",
+  }
+]
+
+export const designPortfolio: { name: string, image: string }[] = [
+  {
+    name: 'Blissify',
+    image: '/Blissify.png'
+  },
+  {
+    name: 'DigiSign',
+    image: '/DigiSign.png'
+  },
+  {
+    name: 'FinSense',
+    image: '/FinSense.png'
+  },
+  {
+    name: 'SRE ITB',
+    image: '/SRE.png'
+  },
+  {
+    name: 'TEDxITB',
+    image: '/TEDxITB.png'
   }
 ]

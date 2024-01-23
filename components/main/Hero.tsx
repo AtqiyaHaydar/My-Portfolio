@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div id="about" className='w-full h-[100vh] wrapper flex flex-col items-center justify-center gap-8'>
+    <div id="about" className='w-full h-screen wrapper flex flex-col items-center justify-center gap-8'>
       <Blackhole />
       <h1 className='text-2xl md:text-4xl lg:text-4xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-cyan-500'>
         Bridging Vision to Virtual: <br /> Your Full Stack Developer and UI/UX Designer.

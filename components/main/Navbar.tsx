@@ -70,13 +70,12 @@ const Navbar = () => {
             </SheetContent>
           </Sheet>
         </div>
-      
 
-        <Button className='hidden lg:flex'>
-          <span className='hover:bg-clip-text hover:bg-gradient-to-r hover:text-transparent hover:from-purple-500 hover:to-cyan-500 cursor-pointer hover:font-bold'>
-            Admin Mode
+        <h1 className='text-white font-semibold text-xl'>
+          <span className='bg-clip-text text-transparent  bg-gradient-to-r from-purple-500 to-cyan-500'>
+            C O N T A C T
           </span>
-        </Button>
+        </h1>
 
       </div>
     </header>
