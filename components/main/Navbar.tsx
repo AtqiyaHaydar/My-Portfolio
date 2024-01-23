@@ -71,11 +71,9 @@ const Navbar = () => {
           </Sheet>
         </div>
 
-        <h1 className='text-white font-semibold text-xl'>
-          <span className='bg-clip-text text-transparent  bg-gradient-to-r from-purple-500 to-cyan-500'>
-            C O N T A C T
-          </span>
-        </h1>
+        <Button>
+          <span>Admin</span>
+        </Button>
 
       </div>
     </header>

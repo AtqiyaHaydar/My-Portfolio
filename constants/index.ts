@@ -62,12 +62,12 @@ export const skills: { name: string }[] = [
 
 export const designPortfolio: { name: string, image: string }[] = [
   {
-    name: 'Blissify',
-    image: '/Blissify.png'
-  },
-  {
     name: 'DigiSign',
     image: '/DigiSign.png'
+  },
+  {
+    name: 'Blissify',
+    image: '/Blissify.png'
   },
   {
     name: 'FinSense',
