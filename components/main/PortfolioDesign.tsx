@@ -33,7 +33,8 @@ const PortfolioDesign = () => {
   }
 
   return (
-    <div className='w-full h-screen wrapper flex flex-col items-center justify-center gap-8'>
+    <div className='w-full h-full py-[125px] wrapper flex flex-col items-center justify-center gap-2 '>
+      <h1  className='text-white text-center text-3xl font-regular mb-[100px] md:mb-[-50px]'>D E S I G N P O R T F O L I O</h1>
       {designPortfolio.map((item, index) => {
         return (
           <>
@@ -41,19 +42,21 @@ const PortfolioDesign = () => {
               key={index}
               src={item.image}
               alt={item.name}
-              className="rounded-[12px]"
+              className="rounded-[12px] w-[75vw] md:w-[50vw] lg:w-[35vw]"
               initial="center"
-              animate={positions[positionIndexes[index]]}
+              animate={positions[positionIndexes[index]] }
               variants={imageVariants}
               transition={{ duration: 0.5}}
-              style={{ width: '35%', position: 'absolute' }}
+              style={{ 
+                position: 'absolute',
+              }}
             />        
           </>
         )
       })}
 
       <Button
-        className='text-white mt-[250px] md:mt-[350px] lg:mt-[450px] cursor-pointer z-20'
+        className='text-white mt-[350px] md:mt-[450px] lg:mt-[550px] cursor-pointer z-20'
         onClick={handleNext}
       >
         Next

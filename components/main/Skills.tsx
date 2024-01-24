@@ -4,7 +4,7 @@ import { skills } from '@/constants'
 const Skills = () => {
   return (
     <div id="skills" className='w-full wrapper flex flex-col items-center justify-start gap-12'>
-      <h1 className='text-white text-center text-3xl font-regulat'>
+      <h1 className='text-white text-center text-3xl font-regular'>
         T E C H S T A C K S
       </h1>
       <ul className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6 lg:gap-8'>
