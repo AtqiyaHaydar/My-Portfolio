@@ -33,8 +33,8 @@ const PortfolioDesign = () => {
   }
 
   return (
-    <div className='w-full h-full py-[125px] wrapper flex flex-col items-center justify-center gap-2 '>
-      <h1  className='text-white text-center text-3xl font-regular mb-[100px] md:mb-[-50px]'>D E S I G N P O R T F O L I O</h1>
+    <div className='w-full h-full py-[125px] wrapper flex flex-col items-center justify-center gap-2 overflow-x-hidden'>
+      <h1  className='text-white text-center text-3xl font-regular mb-[100px] md:mb-[-50px]'>D E S I G N <br className='md:hidden block' /> P O R T F O L I O</h1>
       {designPortfolio.map((item, index) => {
         return (
           <>
